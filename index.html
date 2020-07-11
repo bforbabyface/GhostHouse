@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Ghosthouse</title>
+
+<link rel="icon" href="images/favicon copy.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital@0;1&family=DM+Serif+Text&family=Ewert&family=Rye&family=Sancreek&family=Smokum&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/b897ea8f0d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#features">About</a></li>
+        <li><a href="#book">Reviews</a></li>
+        <li><a href="#book">Book</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Title -->
+<main>
+  <section id="title">
+    <div class="dark-section">
+      <h3 class="little-header"><em>Welcome to</em></h3>
+      <h1 class="big-header">Ghost House</h1>
+      <img class="title-img" src="images/Ghosthouse_side.png" alt="Ghosthouse-img">
+    </div>
+  </section>
+
+  <!-- Features/About -->
+  <section id="features">
+    <div class="light-section row">
+      <div class="col-lg-6">
+        <i class="features-icon fas fa-frog fa-4x"></i>
+        <h2>Real wildlife experience.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      </div>
+      <div class="col-lg-6">
+        <i class="features-icon fas fa-beer fa-4x"></i>
+        <h2>Authentic old-town saloon.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+      </div>
+      <div class="col-lg-6">
+        <i class="features-icon fas fa-tree fa-4x"></i>
+        <h2>Experience the desert life.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+
+      </div>
+      <div class="col-lg-6">
+
+        <i class="features-icon fas fa-campground fa-4x"></i>
+        <h2>100% off-grid experience.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="booking">
+    <div class="dark-section">
+      <h2 class=booking-header>Book your adventure at Ghost House</h2>
+      <form class="booking-form" action="index.html" method="post">
+<div class="row">
+    <div class="col-lg-4">
+          <label for="arrive">Arrive:</label>
+          <input id="arrive" name="booking" type="date" value="" required>
+        </div>
+        <div class="col-lg-4">
+          <label for="depart">Depart:</label>
+          <input id="depart" name="booking" type="date" value=""required>
+        </div>
+        <div class="col-lg-4">
+          <label for="guests">No. of Guests:</label>
+        <select id="gusts" name="guests">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5+</option>
+        </select>
+
+        <input type="number" name="guests" value="" min="1" max="10">
+        <br>
+        <label for="hear">How did you hear about us?</label>
+        <input type="text" list="hear" name="hear">
+        <datalist id="hear">
+          <option value="Google"></option>
+          <option value="Yahoo"></option>
+          <option value="Travel Blog"></option>
+          <option value="Friend"></option>
+        </datalist>
+        </div>
+        </div>
+        <br>
+
+        <input type="submit" name="submit" value="Send">
+        <button type="button" class="btn btn-outline-light" name="button">Submit</button>
+
+      </form>
+      </div>
+
+  </section>
+  </main>
+  <footer>
+    <p>&copy Fatima Aleshaiker 2020</p>
+  </footer>
+</body>
+
+</html>
